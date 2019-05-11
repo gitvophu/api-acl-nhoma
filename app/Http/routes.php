@@ -278,12 +278,12 @@ Route::group(['prefix' => 'api', 'namespace' => 'LaravelAcl\Authentication\Contr
 
 //product
 
-    Route::get('/products', 'ProductController@index')->name('index');
-    Route::post('/products/page', 'ProductController@paging')->name('paging');
-    Route::get('/products/{id}', 'ProductController@showProduct')->name('showProduct');
-    Route::post('/products/create', 'ProductController@createProduct')->name('createProduct');
-    Route::put('/products/update/{id}', 'ProductController@updateProduct')->name('updateProduct');
-    Route::delete('/products/delete/{id}', 'ProductController@deleteProduct')->name('deleteProduct');
+    Route::get('/products2', 'ProductController@index')->name('index');
+    Route::post('/products2/page', 'ProductController@paging')->name('paging');
+    Route::get('/products2/{id}', 'ProductController@showProduct')->name('showProduct');
+    Route::post('/products2/create', 'ProductController@createProduct')->name('createProduct');
+    Route::put('/products2/update/{id}', 'ProductController@updateProduct')->name('updateProduct');
+    Route::delete('/products2/delete/{id}', 'ProductController@deleteProduct')->name('deleteProduct');
 
 //images
 
