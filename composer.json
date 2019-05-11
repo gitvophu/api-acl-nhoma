@@ -1,5 +1,5 @@
 {
-  "name": "jacopo/laravel-authentication-acl",
+  "name": "phuvo/api-acl-nhoma",
   "description": "Laravel authentication and ACL package with a cool admin panel",
   "keywords": [
     "acl",
@@ -17,7 +17,6 @@
     }
   ],
   "license": "MIT",
-  "type": "project",
   "require": {
     "laravel/framework": "5.4.*",
     "laravelcollective/html" : "5.4.*",
